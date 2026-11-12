@@ -165,6 +165,12 @@ blockquote.t{margin:0;padding:0;font-family:var(--font-head);font-size:clamp(1.5
 .t-person .t-by strong{color:var(--text);font-weight:600}
 .t-person .t-by span{font-size:.9rem}
 @media(min-width:768px){.carousel .t-avatar{width:80px;height:80px}}
+/* centered testimonial carousel */
+#reviews{text-align:center}
+#reviews blockquote.t{max-width:900px;margin-inline:auto}
+#reviews .t-person{justify-content:center;text-align:start}
+#reviews .carousel-item>.t-person{margin-inline:auto}
+#reviews>.d-flex{justify-content:center}
 .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:2rem}
 @media(min-width:768px){.stats{grid-template-columns:repeat(4,1fr)}}
 .stat-n{font-family:var(--font-head);font-size:clamp(3rem,6vw,5rem);color:var(--accent);line-height:1}
