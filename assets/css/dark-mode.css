@@ -1,0 +1,8 @@
+/* Dark is the default theme (variables in style.css :root). Light overrides live in [data-theme="light"].
+   Add component-level dark/light tweaks here. */
+[data-theme="light"] .hero::after{background:linear-gradient(180deg,rgba(17,16,15,.55),rgba(17,16,15,.25) 40%,rgba(17,16,15,.88))}
+[data-theme="light"] .site-header:not(.is-solid) .brand,
+[data-theme="light"] .site-header:not(.is-solid) .nav-link{color:#F8F5F0}
+[data-theme="light"] .site-header:not(.is-solid) .icon-btn,
+[data-theme="light"] .site-header:not(.is-solid) .navbar-toggler{color:#F8F5F0;border-color:rgba(248,245,240,.3)}
+@media(max-width:991.98px){[data-theme="light"] .site-header .navbar-collapse .nav-link{color:var(--text)}}

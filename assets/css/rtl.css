@@ -1,0 +1,10 @@
+/* Applied when <html dir="rtl">. Bootstrap's RTL build is not required; these rules cover custom components. */
+[dir="rtl"] body{font-family:'Manrope','Segoe UI',Tahoma,sans-serif}
+[dir="rtl"] .stack-img .media.inset{right:auto;left:-4%}
+[dir="rtl"] .svc-item:hover{padding-left:0;padding-right:1rem}
+[dir="rtl"] .to-top{right:auto;left:1.25rem}
+[dir="rtl"] .ba{direction:ltr}
+[dir="rtl"] .dropdown-menu{text-align:right}
+[dir="rtl"] .me-auto{margin-right:0!important;margin-left:auto!important}
+[dir="rtl"] .ms-lg-auto{margin-left:0!important;margin-right:auto!important}
+[dir="rtl"] .bi-arrow-right::before{transform:scaleX(-1);display:inline-block}
